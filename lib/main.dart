@@ -113,6 +113,17 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
 
+            //Part 7
+            Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Icon(FluentSystemIcons.ic_fluent_weather_rain_showers_day_filled,size: 48,),
+                Icon(FluentSystemIcons.ic_fluent_window_shield_regular,size: 44,),
+                Icon(FluentSystemIcons.ic_fluent_view_desktop_filled,size: 40,),
+                Icon(FluentSystemIcons.ic_fluent_upgrade_filled,size: 36,),
+                Icon(FluentSystemIcons.ic_fluent_whiteboard_filled,size: 36,),
+              ],
+            ),
           ],
         ),
       ),// This trailing comma makes auto-formatting nicer for build methods.
