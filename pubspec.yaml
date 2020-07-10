@@ -20,6 +20,6 @@ flutter:
   uses-material-design: true
 
   fonts:
-    - family:  FluentSystemIcons
+    - family:  FluentSystemIconsP1
       fonts:
-        - asset: fonts/FluentSystemIcons.ttf
+        - asset: fonts/FluentSystemIconsP1.ttf

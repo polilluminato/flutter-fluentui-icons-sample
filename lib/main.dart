@@ -39,17 +39,19 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            Icon(FluentSystemIcons.ic_fluent_calendar_24_filled,size: 48,),
-            Icon(FluentSystemIcons.ic_fluent_calendar_24_regular,size: 44,),
-            Icon(FluentSystemIcons.ic_fluent_certificate_24_filled,size: 40,),
-            Icon(FluentSystemIcons.ic_fluent_certificate_24_regular,size: 36,),
-            Icon(FluentSystemIcons.ic_fluent_chat_24_filled,size: 32,),
-            Icon(FluentSystemIcons.ic_fluent_chat_24_regular,size: 28,),
-            Icon(FluentSystemIcons.ic_fluent_city_24_filled,size: 24,),
-            Icon(FluentSystemIcons.ic_fluent_city_24_regular,size: 20,)
+        child: Row(
+          children: <Widget>[
+            //Part 1
+            Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Icon(FluentSystemIcons.ic_fluent_autocorrect_regular,size: 48,),
+                Icon(FluentSystemIcons.ic_fluent_battery_6_regular,size: 44,),
+                Icon(FluentSystemIcons.ic_fluent_book_formula_database_filled,size: 40,),
+                Icon(FluentSystemIcons.ic_fluent_briefcase_filled,size: 36,),
+                Icon(FluentSystemIcons.ic_fluent_calendar_month_filled,size: 36,),
+              ],
+            ),
           ],
         ),
       ),// This trailing comma makes auto-formatting nicer for build methods.
