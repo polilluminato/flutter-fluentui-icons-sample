@@ -52,6 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Icon(FluentSystemIcons.ic_fluent_calendar_month_filled,size: 36,),
               ],
             ),
+
             //Part 2
             Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -73,6 +74,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 Icon(FluentSystemIcons.ic_fluent_duo_group_regular,size: 40,),
                 Icon(FluentSystemIcons.ic_fluent_eraser_tool_filled,size: 36,),
                 Icon(FluentSystemIcons.ic_fluent_folder_regular,size: 36,),
+              ],
+            ),
+
+            //Part 4
+            Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Icon(FluentSystemIcons.ic_fluent_inprivate_account_filled,size: 48,),
+                Icon(FluentSystemIcons.ic_fluent_library_regular,size: 44,),
+                Icon(FluentSystemIcons.ic_fluent_mail_outbox_regular,size: 40,),
+                Icon(FluentSystemIcons.ic_fluent_notebook_error_filled,size: 36,),
+                Icon(FluentSystemIcons.ic_fluent_people_add_regular,size: 36,),
               ],
             ),
 
