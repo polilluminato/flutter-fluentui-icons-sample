@@ -32,3 +32,6 @@ flutter:
     - family:  FluentSystemIconsP4
       fonts:
         - asset: fonts/FluentSystemIconsP4.ttf
+    - family:  FluentSystemIconsP5
+      fonts:
+        - asset: fonts/FluentSystemIconsP5.ttf
